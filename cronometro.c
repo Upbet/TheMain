@@ -11,7 +11,7 @@ main(){
 			
 			for(seg = 0; seg < 60; seg++){
 				
-				printf("%02i:%02i:%02i\r",h,min,seg);
+				printf("Tiempo que llevas en el programa:%02i:%02i:%02i\r",h,min,seg);
 				Sleep(x);
 			}
 		}
